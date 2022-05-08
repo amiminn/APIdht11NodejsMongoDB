@@ -9,9 +9,8 @@ import cors from "cors";
 // construct express function
 const app = express();
 
-// const url = "mongodb://localhost:27017/dht11";
-const url =
-    "mongodb+srv://mimindesu:mimindesu@dht11.h2rfo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url = "mongodb://localhost:27017/dht11";
+// const url = "mongodb+srv://root:root123@dht11.h2rfo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 // connect ke database mongoDB
 mongoose.connect(url, {
     useNewUrlParser: true,
